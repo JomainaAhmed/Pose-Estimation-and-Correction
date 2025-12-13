@@ -65,5 +65,39 @@ Rules are applied **frame-wise** to ensure interpretable and explainable feedbac
 
 ---
 
-## 📂 Project Structure
+## 🚀 Getting Started
 
+### Clone the Repository
+```bash
+git clone <repository-url>
+cd Pose-Estimation-for-Fitness-Exercise-Analysis
+```
+
+## Set Up Virtual Environment
+python -m venv venv
+venv\Scripts\activate      # Windows
+
+## Install Dependencies
+pip install -r requirements.txt
+
+## Run the Application
+python Model_Predictions.py
+
+## 🎥 Output
+
+- Pose landmarks overlay on video
+- Exercise phase indicator
+- Repetition counter
+- Text-based posture feedback
+
+## ⚠️ Limitations
+
+- Assumes a single person per frame
+- Fixed camera angle recommended for best accuracy
+
+## 🔮 Future Improvements
+
+- Multi-person pose tracking
+- Temporal smoothing of pose data
+- MLFlow integration
+- Web or mobile deployment
